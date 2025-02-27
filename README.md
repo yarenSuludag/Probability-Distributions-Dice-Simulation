@@ -1,4 +1,4 @@
-# Probability Distributions and Dice Simulation Project
+# Probability Distributions and Dice Simulation Project 🎲
 
 This project demonstrates the application of various probability distributions using Python. It covers the generation of random data from different distributions, the visualization of these distributions with histograms, and the simulation of dice rolls using both uniform and non-uniform (weighted) methods. The project also serves as an introductory exploration to reinforcement learning concepts, particularly the multi-armed bandit problem.
 
@@ -36,7 +36,7 @@ In addition, the project simulates dice rolls:
 
 ## Project Structure
 
-### Section 1: Probability Distributions
+### Section 1: Probability Distributions 📊
 
 - **Objective**: Generate random data using various probability distributions and visualize the data using histograms.
 - **Implementation**:
@@ -61,7 +61,7 @@ The project computes the mean and variance for each distribution, for example:
   - **Normal Distribution Dice Roll**: Using `numpy.random.normal(3.5, 1, 1000)`, rounding and clipping the results to fall between 1 and 6.
   - **Poisson Distribution Dice Roll**: Using `numpy.random.poisson(3, 1000)`, then clipping the values to be between 1 and 6.
 
-### Section 3: Increasing the Probability of Six
+### Section 3: Increasing the Probability of Six 🎯
 
 - **Objective**: Create a biased (cheating) dice where the face '6' has a higher probability of appearing.
 - **Implementation**:
